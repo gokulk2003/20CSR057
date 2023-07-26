@@ -1,0 +1,17 @@
+.main{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color:azure;
+}
+
+.box{
+  border:1px solid ;
+  padding: 50px 30px;
+}
+
+.main :hover{
+  background-color: antiquewhite;
+  color: brown;
+}
+
